@@ -33,7 +33,7 @@
 ## Part 3: Cloud Deployment
 
 ### Exercise 3.1: Railway deployment
-- URL: `[Đợi điền sau khi có Public URL]`
+- URL: `https://day12-2a202600779-caoviethoang-production.up.railway.app`
 - Screenshot: `[Đợi điền sau khi có Public URL]`
 
 ## Part 4: API Security

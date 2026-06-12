@@ -1,7 +1,7 @@
 # Deployment Information
 
 ## Public URL
-[YOUR_PUBLIC_URL_HERE] (e.g. https://your-agent.railway.app)
+https://day12-2a202600779-caoviethoang-production.up.railway.app
 
 ## Platform
 Railway / Render / Cloud Run (Please choose one)
@@ -10,13 +10,13 @@ Railway / Render / Cloud Run (Please choose one)
 
 ### Health Check
 ```bash
-curl [YOUR_PUBLIC_URL_HERE]/health
+curl https://day12-2a202600779-caoviethoang-production.up.railway.app/health
 # Expected: {"status": "ok"}
 ```
 
 ### API Test (with authentication)
 ```bash
-curl -X POST [YOUR_PUBLIC_URL_HERE]/ask \
+curl -X POST https://day12-2a202600779-caoviethoang-production.up.railway.app/ask \
   -H "X-API-Key: my-super-secret-key-123" \
   -H "Content-Type: application/json" \
   -d '{"user_id": "test", "question": "Hello"}'
